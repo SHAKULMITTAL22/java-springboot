@@ -1,0 +1,7 @@
+productId,name,id,description,price,statusCode,scenario
+1,Chips,1,Lays,120,200,Updated Product
+354,orange,39,some random description,45,404,Not Found
+48,tomato,12,random description,56,404,Not Found
+1,Chips,1,Lays,120,200,Updated Product
+389,watermelon,95,invalid description,32,404,Not Found
+5,grapes,23,random description,78,404,Not Found
