@@ -1,0 +1,4 @@
+name,id,description,price,statusCode,scenario
+apple,10,description of the product,20,200,Successful operation
+Chips,9,Chips,120.0,405,Invalid input
+new Chips,9,new Chips,120.0,405,Invalid input
