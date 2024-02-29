@@ -1,0 +1,6 @@
+productId,name,id,description,price,statusCode,scenario
+1,Chips,1,Lays,120,200,Updated Product
+2,Banana,10,description of the product,20,404,Not Found
+3,Orange,11,Random Description,25,404,Not Found
+4,Mango,12,Another Description,30,404,Not Found
+5,Strawberry,13,Different Description,35,404,Not Found
