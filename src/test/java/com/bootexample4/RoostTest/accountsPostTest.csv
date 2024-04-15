@@ -1,0 +1,11 @@
+commit-hash^|^email^|^statusCode
+9f4b3d5^|^john.doe@example.com^|^201
+1a2b3c4^|^jane.smith@example.net^|^400
+5e6f7g8^|^bob.johnson@test.org^|^201
+h9i0j1k^|^alice.brown@demo.co.uk^|^201
+2l3m4n5^|^mike.wilson@sample.io^|^400
+o6p7q8r^|^sara.taylor@example.com^|^201
+9s0t1u2^|^david.anderson@test.net^|^201
+v3w4x5y^|^emily.harris@demo.org^|^400
+6z7a8b9^|^chris.martin@sample.co.uk^|^201
+c0d1e2f^|^linda.thompson@example.io^|^400
