@@ -1,0 +1,11 @@
+email^|^statusCode^|^statusCode_description
+lsmith@example.com^|^200^|^successful operation
+jdoe@company.net^|^400^|^Bad Request
+mgarcia@business.org^|^200^|^successful operation
+awilson@email.co.uk^|^200^|^successful operation
+rjohnson@domain.io^|^400^|^Bad Request
+tlee@website.info^|^200^|^successful operation
+schen@company.com^|^200^|^successful operation
+jjones@example.net^|^400^|^Bad Request
+fbrown@business.co^|^200^|^successful operation
+kdavis@email.org^|^200^|^successful operation
