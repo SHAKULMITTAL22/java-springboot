@@ -1,0 +1,11 @@
+commit-hash^|^email^|^statusCode^|^statusCode_description
+d3c1f2a^|^jdoe@example.com^|^201^|^successful operation
+6ba9c01^|^alice@company.co^|^400^|^Bad Request
+f0a7b3c^|^bob.smith@gmail.com^|^201^|^successful operation
+8e92d41^|^jane_doe@yahoo.com^|^201^|^successful operation
+2c5b6e0^|^jsmith@hotmail.com^|^400^|^Bad Request
+9d4f1a7^|^mike@business.net^|^201^|^successful operation
+5g8h3j6^|^sara.jones@company.com^|^201^|^successful operation
+1k2l9m4^|^tjohnson@example.org^|^400^|^Bad Request
+7n5p2q8^|^amy@domain.io^|^201^|^successful operation
+4r6s1t9^|^zchen@email.co.uk^|^201^|^successful operation
