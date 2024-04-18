@@ -1,0 +1,11 @@
+url^|^methodType^|^parameters^|^responses^|^security^|^requestBody^|^api-version^|^commit-hash^|^location^|^id^|^name^|^email^|^createdAt^|^updatedAt^|^total^|^grants^|^token
+/accounts^|^post^|^commit-hash^|^201,400^|^^|^{"email":"string(format: email)"}^|^1.0.0^|^928d28d^|^^|^^|^^|^^|^^|^^|^^|^^|^
+/accounts^|^post^|^commit-hash^|^201,400^|^^|^{"email":"string(format: email)"}^|^1.0.0^|^d82a17c^|^^|^^|^^|^^|^^|^^|^^|^^|^
+/authorizations^|^post^|^^|^201,400,401^|^[{"type":"apiKey","name":"Token","in":"header","scopes":[]}]^|^{"email":"string(format: email)"}^|^1.0.0^|^^|^/authorizations/b7f2d8^|^b7f2d8eb-1234-4c6d-92af-654321fedcba^|^John Doe^|^john.doe@example.com^|^2023-06-01T10:30:00Z^|^2023-06-01T10:30:00Z^|^^|^^|^
+/authorizations^|^post^|^^|^201,400,401^|^[{"type":"apiKey","name":"Token","in":"header","scopes":[]}]^|^{"email":"string(format: email)"}^|^1.0.0^|^^|^/authorizations/5e9f1c^|^5e9f1c7a-5678-4d92-8bcd-123456abcdef^|^Jane Smith^|^jane.smith@example.com^|^2023-06-02T14:45:00Z^|^2023-06-02T14:45:00Z^|^^|^^|^
+/grants^|^get^|^^|^200,401^|^[{"type":"apiKey","name":"Token","in":"header","scopes":[]}]^|^^|^1.0.0^|^^|^^|^^|^^|^^|^^|^^|^10^|^[{"id":"uuid1","token":"token1","createdAt":"2023-06-03T09:15:00Z","updatedAt":"2023-06-03T09:15:00Z","account":{}}]^|^
+/grants^|^get^|^^|^200,401^|^[{"type":"apiKey","name":"Token","in":"header","scopes":[]}]^|^^|^1.0.0^|^^|^^|^^|^^|^^|^^|^^|^5^|^[{"id":"uuid2","token":"token2","createdAt":"2023-06-04T11:00:00Z","updatedAt":"2023-06-04T11:00:00Z","account":{}}]^|^
+/accounts^|^post^|^commit-hash^|^201,400^|^^|^{"email":"string(format: email)"}^|^1.0.0^|^e4f8c1b^|^^|^^|^^|^^|^^|^^|^^|^^|^
+/authorizations^|^post^|^^|^201,400,401^|^[{"type":"apiKey","name":"Token","in":"header","scopes":[]}]^|^{"email":"string(format: email)"}^|^1.0.0^|^^|^/authorizations/7c3d9e^|^7c3d9e2f-9012-4e5a-8def-abcdef123456^|^Mike Johnson^|^mike.johnson@example.com^|^2023-06-05T16:20:00Z^|^2023-06-05T16:20:00Z^|^^|^^|^
+/grants^|^get^|^^|^200,401^|^[{"type":"apiKey","name":"Token","in":"header","scopes":[]}]^|^^|^1.0.0^|^^|^^|^^|^^|^^|^^|^^|^8^|^[{"id":"uuid3","token":"token3","createdAt":"2023-06-06T13:45:00Z","updatedAt":"2023-06-06T13:45:00Z","account":{}}]^|^
+/accounts^|^post^|^commit-hash^|^201,400^|^^|^{"email":"string(format: email)"}^|^1.0.0^|^a1b2c3d^|^^|^^|^^|^^|^^|^^|^^|^^|^
