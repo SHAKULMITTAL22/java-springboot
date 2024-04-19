@@ -1,0 +1,11 @@
+`email|^|otp|^|client|^|statusCode
+testuser@example.com|^|123456|^|mobile|^|201
+user2@example.com|^|234567|^|web|^|201
+user3@example.com|^|345678|^|desktop|^|201
+user4@example.com|^|456789|^|api|^|201
+user5@example.com|^|567890|^|mobile|^|201
+user6@example.com|^|678901|^|web|^|201
+user7@example.com|^|789012|^|desktop|^|201
+user8@example.com|^|890123|^|api|^|201
+user9@example.com|^|901234|^|mobile|^|201
+user10@example.com|^|012345|^|web|^|201`
