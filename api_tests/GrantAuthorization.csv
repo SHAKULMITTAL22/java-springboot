@@ -1,0 +1,11 @@
+url^|^methodType^|^requestBody.email^|^requestBody.otp^|^requestBody.client^|^responses.201.token^|^responses.201.id^|^responses.201.name^|^responses.201.email^|^responses.201.createdAt^|^responses.201.updatedAt
+/accounts^|^post^|^jsmith@example.com^|^^|^^|^^|^^|^^|^^|^^|^
+/accounts^|^post^|^mjane@example.org^|^^|^^|^^|^^|^^|^^|^^|^
+/login^|^post^|^tlee@example.net^|^834951^|^mobile^|^eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9^|^^|^^|^^|^^|^
+/login^|^post^|^awilson@example.com^|^192847^|^web^|^eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9^|^^|^^|^^|^^|^
+/authorizations^|^post^|^jdoe@example.org^|^^|^^|^^|^f7e3c1a2-d6a4-4b5e-8e9d-1c3b5a6f7e8d^|^John Doe^|^jdoe@example.org^|^2023-04-28T14:30:00Z^|^2023-04-28T14:30:00Z
+/authorizations^|^post^|^ssmith@example.net^|^^|^^|^^|^a1b2c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6^|^Sarah Smith^|^ssmith@example.net^|^2023-04-29T09:15:00Z^|^2023-04-29T09:15:00Z
+/login^|^post^|^rbrown@example.com^|^639274^|^desktop^|^eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9^|^^|^^|^^|^^|^
+/authorizations^|^post^|^mjohnson@example.org^|^^|^^|^^|^p7q8r9s0-t1u2-3v4w-5x6y-7z8a9b0c1d2^|^Mike Johnson^|^mjohnson@example.org^|^2023-04-30T18:45:00Z^|^2023-04-30T18:45:00Z
+/login^|^post^|^jjones@example.net^|^517683^|^api^|^eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9^|^^|^^|^^|^^|^
+/authorizations^|^post^|^adavis@example.com^|^^|^^|^^|^e3f4g5h6-i7j8-9k0l-1m2n-3o4p5q6r7s8^|^Anna Davis^|^adavis@example.com^|^2023-05-01T12:00:00Z^|^2023-05-01T12:00:00Z
