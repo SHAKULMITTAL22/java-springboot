@@ -1,0 +1,11 @@
+url^|^path^|^methodType^|^parameters^|^responses^|^security
+/authorizations/e7f44ca6-a2d1-4c3a-9e3a-916c5f523c1a^|^/authorizations/{id}^|^delete^|^id: string (in:path)(format: uuid)(required)^|^200,400,401^|^type:apiKey,name:Token,in:header,scopes:[]
+/authorizations/f98b838f-6e3d-4a2c-8d6d-e9c3f3a7b1c2^|^/authorizations/{id}^|^delete^|^id: string (in:path)(format: uuid)(required)^|^200,400,401^|^type:apiKey,name:Token,in:header,scopes:[]
+/authorizations/a1b2c3d4-e5f6-7g8h-9i0j-klmnopqrstu^|^/authorizations/{id}^|^delete^|^id: string (in:path)(format: uuid)(required)^|^200,400,401^|^type:apiKey,name:Token,in:header,scopes:[]
+/authorizations/90123456-7890-1234-5678-901234567890^|^/authorizations/{id}^|^delete^|^id: string (in:path)(format: uuid)(required)^|^200,400,401^|^type:apiKey,name:Token,in:header,scopes:[]
+/authorizations/abcdef01-2345-6789-0123-456789abcdef^|^/authorizations/{id}^|^delete^|^id: string (in:path)(format: uuid)(required)^|^200,400,401^|^type:apiKey,name:Token,in:header,scopes:[]
+/authorizations/a0b1c2d3-e4f5-6g7h-8i9j-0klmnopqrst^|^/authorizations/{id}^|^delete^|^id: string (in:path)(format: uuid)(required)^|^200,400,401^|^type:apiKey,name:Token,in:header,scopes:[]
+/authorizations/1a2b3c4d-5e6f-7g8h-9i0j-klmnopqrstu^|^/authorizations/{id}^|^delete^|^id: string (in:path)(format: uuid)(required)^|^200,400,401^|^type:apiKey,name:Token,in:header,scopes:[]
+/authorizations/0a1b2c3d-4e5f-6g7h-8i9j-0klmnopqrst^|^/authorizations/{id}^|^delete^|^id: string (in:path)(format: uuid)(required)^|^200,400,401^|^type:apiKey,name:Token,in:header,scopes:[]
+/authorizations/a0b1c2d3-e4f5-6g7h-8i9j-0klmnopqrst^|^/authorizations/{id}^|^delete^|^id: string (in:path)(format: uuid)(required)^|^200,400,401^|^type:apiKey,name:Token,in:header,scopes:[]
+/authorizations/1a2b3c4d-5e6f-7g8h-9i0j-klmnopqrstu^|^/authorizations/{id}^|^delete^|^id: string (in:path)(format: uuid)(required)^|^200,400,401^|^type:apiKey,name:Token,in:header,scopes:[]

@@ -1,0 +1,11 @@
+url^|^methodType^|^statusCode^|^apiVersion^|^commitHash^|^errorCode^|^errorDescription^|^errorField^|^errorSchemaField^|^id^|^did^|^name^|^image^|^email^|^settings^|^createdAt^|^updatedAt
+/accounts^|^post^|^201^|^1.2.1^|^a8e92f4^|^^|^^|^^|^^|^^|^^|^^|^^|^^|^^|^^|^
+/accounts^|^post^|^400^|^1.1.5^|^^|^invalid_request^|^Missing required field^|^email^|^^|^^|^^|^^|^^|^^|^^|^^|^
+/me^|^get^|^200^|^1.0.0^|^^|^^|^^|^^|^^|^b8f2d4e1-a1c3-4e5f-8g7h-6i5j4k3l2m1n^|^did:example:123456789abcdefghi^|^John Doe^|^https://example.com/image.jpg^|^john.doe@example.com^|^{"theme":"dark"}^|^2023-04-28T14:30:00Z^|^2023-04-29T08:45:00Z
+/me^|^get^|^401^|^1.3.2^|^^|^unauthorized^|^Invalid or expired token^|^^|^^|^^|^^|^^|^^|^^|^^|^^|^
+/accounts^|^post^|^201^|^1.0.0^|^e6d82b9^|^^|^^|^^|^^|^^|^^|^^|^^|^^|^^|^^|^
+/me^|^get^|^200^|^1.1.3^|^^|^^|^^|^^|^^|^d2c6b8a4-9e8d-4c6f-8h5g-7i4j3k2l1m0n^|^^|^Jane Smith^|^^|^jane.smith@example.com^|^{"notifications":true}^|^2023-04-27T09:15:00Z^|^2023-04-28T11:00:00Z
+/accounts^|^post^|^400^|^1.2.4^|^^|^invalid_email^|^Invalid email format^|^^|^email^|^^|^^|^^|^^|^^|^^|^^|^
+/me^|^get^|^401^|^1.0.0^|^^|^token_expired^|^Token has expired^|^^|^^|^^|^^|^^|^^|^^|^^|^^|^
+/accounts^|^post^|^201^|^1.3.7^|^3f8c1d5^|^^|^^|^^|^^|^^|^^|^^|^^|^^|^^|^^|^
+/me^|^get^|^200^|^1.2.9^|^^|^^|^^|^^|^^|^f0e8c6d4-b2a0-4e9d-8c7b-6a5i4h3g2f1j^|^did:example:abcdefghijklmnop^|^Bob Johnson^|^https://example.com/avatar.png^|^bob.johnson@example.com^|^{"language":"fr"}^|^2023-04-26T18:45:00Z^|^2023-04-27T07:30:00Z
