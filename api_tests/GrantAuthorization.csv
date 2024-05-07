@@ -1,0 +1,11 @@
+url^|^methodType^|^responseCode^|^responseDescription^|^apiVersion^|^commitHash^|^errorMessage^|^errorDescription^|^errorField^|^schemaField^|^token^|^id^|^name^|^email^|^createdAt^|^updatedAt^|^location
+/accounts^|^post^|^201^|^successful operation^|^1.0.0^|^928d28d^|^^|^^|^^|^^|^^|^^|^^|^^|^^|^^|^
+/login^|^post^|^201^|^^|^1.0.0^|^^|^^|^^|^^|^^|^eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9^|^^|^^|^^|^^|^^|^
+/accounts^|^post^|^400^|^^|^1.0.0^|^^|^Invalid email format^|^Email must be a valid email address^|^email^|^^|^^|^^|^^|^^|^^|^^|^
+/authorizations^|^post^|^201^|^^|^1.0.0^|^^|^^|^^|^^|^^|^^|^f26c5e9d-8f34-4c1a-9d3c-72a715c0f2e0^|^John Doe^|^john.doe@example.com^|^2023-06-08T14:30:00Z^|^2023-06-08T14:30:00Z^|^/authorizations/f26c5e9d-8f34-4c1a-9d3c-72a715c0f2e0
+/login^|^post^|^400^|^^|^1.0.0^|^^|^Invalid OTP^|^The provided OTP is invalid^|^otp^|^^|^^|^^|^^|^^|^^|^^|^
+/accounts^|^post^|^201^|^successful operation^|^1.0.0^|^a1b2c3d^|^^|^^|^^|^^|^^|^^|^^|^^|^^|^^|^
+/authorizations^|^post^|^400^|^^|^1.0.0^|^^|^Email already exists^|^An authorization for this email already exists^|^email^|^^|^^|^^|^^|^^|^^|^^|^
+/login^|^post^|^201^|^^|^1.0.0^|^^|^^|^^|^^|^^|^eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9^|^^|^^|^^|^^|^^|^
+/authorizations^|^post^|^401^|^^|^1.0.0^|^^|^Unauthorized^|^Invalid or missing token^|^^|^^|^^|^^|^^|^^|^^|^^|^
+/accounts^|^post^|^201^|^successful operation^|^1.0.0^|^def456^|^^|^^|^^|^^|^^|^^|^^|^^|^^|^^|^
