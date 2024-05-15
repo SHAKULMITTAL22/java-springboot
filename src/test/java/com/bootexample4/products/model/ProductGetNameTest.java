@@ -60,6 +60,7 @@ Validation:
 */
 
 // ********RoostGPT********
+
 package com.bootexample4.products.model;
 
 import org.junit.Before;
@@ -93,12 +94,11 @@ public class ProductGetNameTest {
 		String actualName = product.getName();
 		assertNull(actualName);
 	}
-
+	
 	@Test
 	public void testGetNameReturnsEmptyForEmptyName() {
 		product.setName("");
 		String actualName = product.getName();
 		assertEquals("", actualName);
 	}
-
 }

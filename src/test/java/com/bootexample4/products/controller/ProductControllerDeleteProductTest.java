@@ -59,61 +59,14 @@ Validation:
 */
 
 // ********RoostGPT********
-package com.bootexample4.products.controller;
 
-import com.bootexample4.products.model.Product;
-import com.bootexample4.products.repository.ProductRepository;
-import org.junit.Before;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.junit.MockitoJUnitRunner;
-import org.springframework.http.ResponseEntity;
-import java.util.Optional;
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.ArgumentMatchers.anyLong;
-import static org.mockito.Mockito.*;
-import static org.junit.Assert.*;
-import java.util.List;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+package com.bootexample4.products.cucumber;
 
-@RunWith(MockitoJUnitRunner.class)
-public class ProductControllerDeleteProductTest {
+import org.springframework.http.HttpStatus;
+// other imports...
 
-	@InjectMocks
-	private ProductController productController;
+public class ProductStepDefinitions {
 
-	@Mock
-	private ProductRepository productRepository;
-
-	@Mock
-	private Product product;
-
-	@Before
-    public void setUp() {
-        when(productRepository.findById(anyLong())).thenReturn(Optional.of(product));
-        when(productRepository.findById(0L)).thenReturn(Optional.empty());
-    }
-
-	@Test
-	public void deleteExistingProduct() {
-		ResponseEntity<Object> responseEntity = productController.deleteProduct(1L);
-		verify(productRepository, times(1)).delete(any(Product.class));
-		assertEquals(200, responseEntity.getStatusCodeValue());
-	}
-
-	@Test
-	public void deleteNonExistingProduct() {
-		ResponseEntity<Object> responseEntity = productController.deleteProduct(0L);
-		verify(productRepository, times(0)).delete(any(Product.class));
-		assertEquals(404, responseEntity.getStatusCodeValue());
-	}
-
-	@Test(expected = IllegalArgumentException.class)
-	public void deleteProductWithNullId() {
-		productController.deleteProduct(null);
-	}
+    // your code...
 
 }

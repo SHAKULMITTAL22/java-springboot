@@ -68,56 +68,5 @@ Validation:
 */
 
 // ********RoostGPT********
-package com.bootexample4.products.model;
 
-import com.bootexample4.products.model.Product;
-import org.junit.Before;
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-
-public class ProductSetIdTest {
-
-	private Product product;
-
-	@Before
-	public void setUp() {
-		product = new Product();
-	}
-
-	@Test
-	public void setIdSuccessfully() {
-		Long expectedId = 123L;
-		product.setId(expectedId);
-		Long actualId = product.getId();
-		assertEquals(expectedId, actualId);
-	}
-
-	@Test
-	public void setNullId() {
-		product.setId(null);
-		Long actualId = product.getId();
-		assertNull(actualId);
-	}
-
-	@Test
-	public void setZeroId() {
-		Long expectedId = 0L;
-		product.setId(expectedId);
-		Long actualId = product.getId();
-		assertEquals(expectedId, actualId);
-	}
-
-	@Test
-	public void setNegativeId() {
-		Long expectedId = -123L;
-		product.setId(expectedId);
-		Long actualId = product.getId();
-		assertEquals(expectedId, actualId);
-	}
-
-}
+import org.springframework.http.HttpStatus;

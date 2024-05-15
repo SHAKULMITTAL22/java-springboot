@@ -59,6 +59,7 @@ Validation:
 */
 
 // ********RoostGPT********
+
 package com.bootexample4.products.model;
 
 import org.junit.Before;
@@ -78,6 +79,7 @@ public class ProductGetPriceTest {
 		product = new Product();
 	}
 
+	// This test case is running without any issues
 	@Test
 	public void testGetPriceReturnsCorrectPrice() {
 		double expectedPrice = 199.99;
@@ -86,6 +88,7 @@ public class ProductGetPriceTest {
 		assertEquals("The expected price doesn't match the actual price", expectedPrice, actualPrice, 0);
 	}
 
+	// This test case is running without any issues
 	@Test
 	public void testGetPriceReturnsZeroWhenNoPriceIsSet() {
 		double expectedPrice = 0.0;
@@ -93,6 +96,7 @@ public class ProductGetPriceTest {
 		assertEquals("The expected price doesn't match the actual price", expectedPrice, actualPrice, 0);
 	}
 
+	// This test case is running without any issues
 	@Test
 	public void testGetPriceReturnsNegativePrice() {
 		double expectedPrice = -10.0;

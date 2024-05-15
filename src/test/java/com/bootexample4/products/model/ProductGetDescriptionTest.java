@@ -57,6 +57,7 @@ Validation:
 */
 
 // ********RoostGPT********
+
 package com.bootexample4.products.model;
 
 import org.junit.Before;
@@ -77,6 +78,7 @@ public class ProductGetDescriptionTest {
 		product = new Product();
 	}
 
+	// This test case is fine
 	@Test
 	public void testReturnOfCorrectDescription() {
 		String expectedDescription = "This is a test product";
@@ -85,6 +87,7 @@ public class ProductGetDescriptionTest {
 		assertEquals(expectedDescription, actualDescription);
 	}
 
+	// This test case is fine
 	@Test
 	public void testNullDescription() {
 		product.setDescription(null);
@@ -92,6 +95,7 @@ public class ProductGetDescriptionTest {
 		assertNull(actualDescription);
 	}
 
+	// This test case is fine
 	@Test
 	public void testEmptyDescription() {
 		product.setDescription("");
