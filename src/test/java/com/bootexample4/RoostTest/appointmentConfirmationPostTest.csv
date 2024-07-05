@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"appointment":{"id":"a1","confirmation":true}}^|^200
+{"appointment":{"id":"a2","confirmation":false}}^|^404
+{"appointment":{"id":"a3","confirmation":true}}^|^503
+{"appointment":{"id":"a4","confirmation":false}}^|^200
+{"appointment":{"id":"a5","confirmation":true}}^|^401
+{"appointment":{"id":"a6","confirmation":false}}^|^403
+{"appointment":{"id":"a7","confirmation":true}}^|^429
+{"appointment":{"id":"a8","confirmation":false}}^|^412
+{"appointment":{"id":"a9","confirmation":true}}^|^406
+{"appointment":{"id":"a10","confirmation":false}}^|^500

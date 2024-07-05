@@ -1,0 +1,11 @@
+appointmentId^|^RequestBody^|^statusCode
+123456789012345^|^{\"userId\":1,\"date\":\"2023-01-01\",\"details\":\"Meeting at office\"}^|^200
+123456789012346^|^{\"userId\":2,\"date\":\"2023-01-02\",\"details\":\"Consultation session\"}^|^200
+123456789012347^|^{\"userId\":3,\"date\":\"2023-01-03\",\"details\":\"Project discussion\"}^|^404
+123456789012348^|^{\"userId\":4,\"date\":\"2023-01-04\",\"details\":\"Annual review\"}^|^403
+123456789012349^|^{\"userId\":5,\"date\":\"2023-01-05\",\"details\":\"Client meetup\"}^|^500
+123456789012350^|^{\"userId\":6,\"date\":\"2023-01-06\",\"details\":\"Team building event\"}^|^200
+123456789012351^|^{\"userId\":7,\"date\":\"2023-01-07\",\"details\":\"Budget planning session\"}^|^401
+123456789012352^|^{\"userId\":8,\"date\":\"2023-01-08\",\"details\":\"Strategy workshop\"}^|^200
+123456789012353^|^{\"userId\":9,\"date\":\"2023-01-09\",\"details\":\"Compliance training\"}^|^503
+123456789012354^|^{\"userId\":10,\"date\":\"2023-01-10\",\"details\":\"Sales pitch preparation\"}^|^429
