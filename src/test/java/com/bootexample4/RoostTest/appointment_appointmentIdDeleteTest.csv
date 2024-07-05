@@ -1,0 +1,11 @@
+appointmentId^|^AdditionalCSVvaluInfo^|^appointmentReason^|^appointmentComments^|^RequestBody^|^statusCode
+APPT00123^|^SA-562403^|^Routine check-up^|^Need to discuss ongoing issues^|^{\"type\":\"new\",\"details\":\"Routine yearly check-up\"}^|^200
+APPT00124^|^SA-562403^|^Consultation^|^First time consultation^|^{\"type\":\"consult\",\"details\":\"First time patient consultation\"}^|^200
+APPT00125^|^SA-562403^|^Emergency^|^Severe headache^|^{\"type\":\"urgent\",\"details\":\"Severe headache since last night\"}^|^403
+APPT00126^|^SA-562403^|^Follow-up^|^Follow-up for prescription^|^{\"type\":\"follow-up\",\"details\":\"Follow-up visit after treatment\"}^|^200
+APPT00127^|^SA-562403^|^Routine check-up^|^Annual health checkup required^|^{\"type\":\"new\",\"details\":\"Annual comprehensive health checkup\"}^|^200
+APPT00128^|^SA-562403^|^Vaccination^|^Flu shot administration^|^{\"type\":\"vaccine\",\"details\":\"Annual flu shot\"}^|^200
+APPT00129^|^SA-562403^|^Consultation^|^Consult about allergy symptoms^|^{\"type\":\"consult\",\"details\":\"Discussion on new allergy symptoms\"}^|^200
+APPT00130^|^SA-562403^|^Emergency^|^Suspected fracture in wrist^|^{\"type\":\"urgent\",\"details\":\"Possible fracture from fall\"}^|^403
+APPT00131^|^SA-562403^|^Follow-up^|^Post-surgery check^|^{\"type\":\"follow-up\",\"details\":\"Post-operative assessment\"}^|^200
+APPT00132^|^SA-562403^|^Routine check-up^|^Bi-annual health review^|^{\"type\":\"new\",\"details\":\"Bi-annual general health review\"}^|^200

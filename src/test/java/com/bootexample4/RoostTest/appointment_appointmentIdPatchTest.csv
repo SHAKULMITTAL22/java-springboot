@@ -1,0 +1,11 @@
+appointmentId^|^RequestBody^|^statusCode
+ID-123456^|^{appointment:{slot:{id:"SL001"},reason:"Annual Checkup"}}^|^200
+ID-123457^|^{appointment:{slot:{id:"SL002"},reason:"Dental Visit"}}^|^200
+ID-123458^|^{appointment:{slot:{id:"SL003"},reason:"Eye Examination"}}^|^404
+ID-123459^|^{appointment:{slot:{id:"SL004"},reason:"Routine Check"}}^|^200
+ID-123460^|^{appointment:{slot:{id:"SL005"},reason:"Vaccination"}}^|^403
+ID-123461^|^{appointment:{slot:{id:"SL006"},reason:"Specialist Consultation"}}^|^200
+ID-123462^|^{appointment:{slot:{id:"SL007"},reason:"Follow-up"}}^|^401
+ID-123463^|^{appointment:{slot:{id:"SL008"},reason:"Emergency"}}^|^503
+ID-123464^|^{appointment:{slot:{id:"SL009"},reason:"Lab Tests"}}^|^200
+ID-123465^|^{appointment:{slot:{id:"SL010"},reason:"Prescription Refill"}}^|^200

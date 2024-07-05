@@ -1,0 +1,12 @@
+RequestBody^|^statusCode
+{"appointment":{"slot":{"id":"SL12345"},"reason":"annual checkup"}}^|^201
+{"appointment":{"slot":{"id":"SL12346"},"reason":"dental cleaning"}}^|^200
+{"appointment":{"slot":{"id":"SL12347"},"reason":"eye exam"}}^|^401
+{"appointment":{"slot":{"id":"SL12348"},"reason":"vaccination"}}^|^403
+{"appointment":{"slot":{"id":"SL12349"},"reason":"general consultation"}}^|^404
+{"appointment":{"slot":{"id":"SL12350"},"reason":"orthopedic"}}^|^406
+{"appointment":{"slot":{"id":"SL12351"},"reason":"pediatric"}}^|^412
+{"appointment":{"slot":{"id":"SL12352"},"reason":"dermatology visit"}}^|^423
+{"appointment":{"slot":{"id":"SL12353"},"reason":"cardiology exam"}}^|^429
+{"appointment":{"slot":{"id":"SL12354"},"reason":"ENT consultation"}}^|^500
+{"appointment":{"slot":{"id":"SL12355"},"reason":"physical therapy"}}^|^503
