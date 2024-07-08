@@ -1,0 +1,11 @@
+appointmentId^|^appointmentReason^|^appointmentComments
+SA-562403^|^Cancelamento Checkout^|^Observação para cancelar a consulta
+SA-562404^|^Consulta reagendada^|^Horário não compatível
+SA-562405^|^Erro no sistema^|^Falha ao registrar
+SA-562406^|^Cliente ausente^|^Sem contato com o cliente
+SA-562407^|^Alteração de serviço^|^Mudança de plano requerida
+SA-562408^|^Cliente solicitou^|^Preferência por outro horário
+SA-562409^|^Erro de pagamento^|^Problema com cartão de crédito
+SA-562410^|^Duplicidade de agendamento^|^Registros duplicados encontrados
+SA-562411^|^Médico indisponível^|^Médico em emergência
+SA-562412^|^Equipamento quebrado^|^Manutenção de última hora
