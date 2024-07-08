@@ -1,0 +1,11 @@
+addressId^|^subscriberId^|^associatedDocument^|^startDate^|^finishDate^|^orderType^|^addressChangeFlag^|^productType^|^priorityFlag^|^priorityTime
+12345^|^VTAL001^|^DOC001^|^2023-01-01T00:00:00^|^2023-01-15T00:00:00^|^Instalacao^|^true^|^Banda Larga^|^false^|^
+12346^|^VTAL002^|^DOC002^|^2023-01-02T00:00:00^|^2023-01-16T00:00:00^|^Retirada^|^false^|^Banda Larga^|^false^|^
+12347^|^VTAL003^|^DOC003^|^2023-01-03T00:00:00^|^2023-01-17T00:00:00^|^ChamadoTecnico^|^false^|^Banda Larga^|^true^|^Cliente Diamond
+12348^|^VTAL004^|^DOC004^|^2023-01-04T00:00:00^|^2023-01-18T00:00:00^|^RemanejamentoPonto^|^false^|^Banda Larga^|^false^|^
+12349^|^VTAL005^|^DOC005^|^2023-01-05T00:00:00^|^2023-01-19T00:00:00^|^Instalacao^|^true^|^Banda Larga^|^true^|^Cliente VVIP
+12350^|^VTAL006^|^DOC006^|^2023-01-06T00:00:00^|^2023-01-20T00:00:00^|^Retirada^|^false^|^Banda Larga^|^false^|^
+12351^|^VTAL007^|^DOC007^|^2023-01-07T00:00:00^|^2023-01-21T00:00:00^|^ChamadoTecnico^|^false^|^Banda Larga^|^false^|^
+12352^|^VTAL008^|^DOC008^|^2023-01-08T00:00:00^|^2023-01-22T00:00:00^|^RemanejamentoPonto^|^false^|^Banda Larga^|^false^|^
+12353^|^VTAL009^|^DOC009^|^2023-01-09T00:00:00^|^2023-01-23T00:00:00^|^Instalacao^|^true^|^Banda Larga^|^false^|^
+12354^|^VTAL010^|^DOC010^|^2023-01-10T00:00:00^|^2023-01-24T00:00:00^|^Retirada^|^false^|^Banda Larga^|^false^|^
