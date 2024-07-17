@@ -1,0 +1,11 @@
+fileName^|^url^|^methodType^|^responseCode^|^apiVersion^|^commitHash^|^email^|^id^|^name^|^createdAt^|^updatedAt^|^token^|^total^|^error^|^description
+CREDENTIALREGISTER_WALLET_1_0_0_RESOLVED_88376FEFA0^|^/accounts^|^post^|^201^|^1.0.0^|^a7b3c9d^|^user1@example.com^|^^^^^^^^^^^^
+CREDENTIALREGISTER_WALLET_1_0_0_RESOLVED_88376FEFA0^|^/accounts^|^post^|^400^|^1.0.0^|^^^^^^^^^^^invalid_email^|^Email format is incorrect
+CREDENTIALREGISTER_WALLET_1_0_0_RESOLVED_88376FEFA0^|^/authorizations^|^post^|^201^|^1.0.0^^|^user2@example.com^|^550e8400-e29b-41d4-a716-446655440000^|^John Doe^|^2023-06-15T10:30:00Z^|^2023-06-15T10:30:00Z^^^^
+CREDENTIALREGISTER_WALLET_1_0_0_RESOLVED_88376FEFA0^|^/authorizations^|^post^|^400^|^1.0.0^^^^^^^^^^invalid_request^|^Missing required field
+CREDENTIALREGISTER_WALLET_1_0_0_RESOLVED_88376FEFA0^|^/authorizations^|^post^|^401^|^1.0.0^^^^^^^^^^unauthorized^|^Invalid token
+CREDENTIALREGISTER_WALLET_1_0_0_RESOLVED_88376FEFA0^|^/grants^|^get^|^200^|^1.0.0^^^^^^eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9^|^2023-06-15T14:45:00Z^|^2023-06-15T14:45:00Z^|^3^^
+CREDENTIALREGISTER_WALLET_1_0_0_RESOLVED_88376FEFA0^|^/grants^|^get^|^401^|^1.0.0^^^^^^^^^^unauthorized^|^Token expired
+CREDENTIALREGISTER_WALLET_1_0_0_RESOLVED_88376FEFA0^|^/accounts^|^post^|^201^|^1.0.0^|^f9e8d7c^|^user3@example.com^|^^^^^^^^^^^^
+CREDENTIALREGISTER_WALLET_1_0_0_RESOLVED_88376FEFA0^|^/authorizations^|^post^|^201^|^1.0.0^^|^user4@example.com^|^63f85697-7c9a-4a62-8f1c-21f4d1adc5e7^|^Jane Smith^|^2023-06-16T09:15:00Z^|^2023-06-16T09:15:00Z^^^^
+CREDENTIALREGISTER_WALLET_1_0_0_RESOLVED_88376FEFA0^|^/grants^|^get^|^200^|^1.0.0^^^^^^eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIn0^|^2023-06-16T11:30:00Z^|^2023-06-16T11:30:00Z^|^5^^
